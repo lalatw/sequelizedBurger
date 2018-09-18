@@ -2,7 +2,7 @@
 sequelizedBurger
 
 # Link to deployed site
-* https://secure-stream-63669.herokuapp.com/
+* https://infinite-springs-11340.herokuapp.com/
 * https://lalatw.github.io/sequelizedBurger/
 
 
