@@ -17,8 +17,9 @@ module.exports = function(app) {
 
   // api POST route for saving a new burger
   app.post("/api/burgers", function(req, res) {
+    console.log(req.body.name);
     db.Burgers.create({
-      burgerName: req.body,
+      burgerName: req.body.name,
     }).then(function(dbBurgers) {
       res.json(dbBurgers);
     });

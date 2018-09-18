@@ -6,6 +6,7 @@ $(function() {
         var newBurger = {
           name: $("#burgerInput").val().trim(),
         };
+        
         console.log("prgress");
         // Send the POST request.
         $.ajax("/api/burgers", {
